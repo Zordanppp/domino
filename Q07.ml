@@ -1,4 +1,4 @@
-Questão 7 - Leonardo Augusto Picanço Barreto e Daniel Lopes Zordan Filho
+(* Questão 7 - Leonardo Augusto Picanço Barreto e Daniel Lopes Zordan Filho *)
 
 (*A função "podeJogar" mapeia uma lista e um estado, a uma lista de pedras que podem ser jogadas naquele estado*)
 fun podeJogar((e1, e2, e3, e4 : (int * int) list), lista_pedras: (int * int) list) = 
@@ -28,3 +28,5 @@ fun comparar((c, d)::xs: (int * int) list) =
 in
     comparar(lista_pedras)
 end;
+
+podeJogar(([(6,6)], [(4,6),(6,6)], [(3,6),(6,6)], [(2,6),(6,6)]), [(1, 6), (6,0), (3,2), (0,0), (5, 1)]);

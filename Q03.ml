@@ -48,16 +48,7 @@ let
 		else if (carrocaSena(lista) = 3) then (6,6) :: nocarrocaSena(pontas)
 		else nocarrocaSena(pontas)
 in
-	(* mapLista(lista) *)
-	(* lista *)
-	(* tl(hd(lista))  *)
-	(* nocarrocaSena(pontas) *)
-	(* pontasValidas(pontas) *)
 	validar(pontasValidas(pontas))
 end;
 
-(* count([(6,6)], [[(6,6)], [(4,6)], [(1,6)], [(6,6)]]); *)
-
-validarMesa([(1, 6),(6, 6)], [(4,4), (4,6),  (6,6)], [(1, 1), (1, 5), (5, 6), (6,6)], [(6,6)]);
-
-(* ([(6, 6)], [(4,6), (6,6)], [(1,6), (6,6)], [(6,6)]) *)
+validarMesa([(1,6),(6,6)], [(4,4),(4,6),(6,6)], [(1,1),(1,5),(5,6),(6,6)], [(6,6)]);
