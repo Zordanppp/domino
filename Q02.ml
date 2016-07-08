@@ -11,5 +11,5 @@
        fun resposta(x) = if x mod 5 = 0 then (x, "vale")
                                         else (x, "nao vale");
  in
-       resposta(soma(L))
+       resposta(pegaSoma(L))
  end;
